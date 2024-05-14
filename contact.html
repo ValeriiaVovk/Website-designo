@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="header">
+        <section class="container flex">
+            <a class="logo" href="./index.html">
+                <img src="./assets/images/logo-header.png" alt="logo of company designo" class="logo-header">
+            </a>
+            <nav>
+                <ul class="menu header__menu flex">
+                    <li><a href="./about.html">OUR COMPANY</a></li>
+                    <li><a href="./locations.html">LOCATIONS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+            </div>
+        </section>
+    </header>
+
+    <main class="main-contact">
+
+        <section class="section__about container">
+            <section class="contact">
+                <div class="contact__info">
+                    <h2>Contact Us</h2>
+                    <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
+                </div>
+                <form action="" class="contact__form">
+                    <input type="text" id="name" placeholder="Name">
+                    <div class="error error-name">Can’t be empty </div>
+                    <input type="email" name="email" id="email" placeholder="Email Address"> 
+                    <div class="error error-email">Can’t be empty </div>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone">
+                    <div class="error error-phone">Can’t be empty </div>
+                    <textarea name="text" id="text"  placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <section class="locations flex">
+                <article class="locations__info">
+                    <img src="./assets/images/canada.svg" alt="canada">
+                    <h3>CANADA</h3>
+                    <a href="./locations.html">SEE LOCATION</a>
+                </article>
+                <article class="locations__info">
+                    <img src="./assets/images/australia.svg" alt="canada">
+                    <h3>AUSTRALIA</h3>
+                    <a href="./locations.html">SEE LOCATION</a>
+                </article>
+                <article class="locations__info">
+                    <img src="./assets/images/united-kingdom.svg" alt="canada" width="202" height="202">
+                    <h3>UNITED KINGDOM</h3>
+                    <a href="./locations.html">SEE LOCATION</a>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer footer-contact">
+        <section class="container">
+
+            <section class="container flex bt-line">
+                <a class="logo" href="./index.html">
+                    <img src="./assets/images/logo-footer.png" alt="logo of company designo" class="logo-footer">
+                </a>
+                <ul class="menu footer__menu flex">
+                    <li><a href="./about.html">OUR COMPANY</a></li>
+                    <li><a href="./locations.html">LOCATIONS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </section>
+
+            <section class="flex info container">
+                <article class="info__item">
+                    <h2>Designo Central Office</h2>
+                    <p>3886 Wellington Street</p>
+                    <p>Toronto, Ontario M9C 3J5</p>
+                </article>
+                <article class="info__item fw700">
+                    <h2>Contact Us (Central Office)</h2>
+                    <p>P : +1 253-863-8967</p>
+                    <p>M : contact@designo.co</p>
+                </article>
+                <article class="info__item social flex">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                        
+                </article>
+            </section>
+        </section>
+
+    </footer>
+    <div class="overlay"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
